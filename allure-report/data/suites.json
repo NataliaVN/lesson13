@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test.java.tests.ForPO",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "test.java.tests.ForPO",
+        "children" : [ {
+          "name" : "anyTest",
+          "uid" : "4dddf909f1e0aaca",
+          "parentUid" : "2fa0de2a3f86553fe0675423563b4e2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582910714040,
+            "stop" : 1582910733743,
+            "duration" : 19703
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2fa0de2a3f86553fe0675423563b4e2b"
+      } ],
+      "uid" : "2480be361521898f4306869a5fda181f"
+    } ],
+    "uid" : "2a077994cbdca89a5a98be134748774d"
+  } ]
+}

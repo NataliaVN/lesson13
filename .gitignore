@@ -1,0 +1,7 @@
+.idea/
+target/
+lesson7Group3.iml
+*.exe
+logs/
+screenshots/
+allure-results/

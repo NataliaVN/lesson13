@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test.java.tests.ForPO",
+    "children" : [ {
+      "name" : "anyTest",
+      "uid" : "4dddf909f1e0aaca",
+      "parentUid" : "b701daad2032faae8bb46907d7c8f43e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582910714040,
+        "stop" : 1582910733743,
+        "duration" : 19703
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.java.tests.ForPO"
+  } ]
+}

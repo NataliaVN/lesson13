@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Cart",
+    "children" : [ {
+      "name" : "Add t-short",
+      "children" : [ {
+        "name" : "Add to cart",
+        "children" : [ {
+          "name" : "anyTest",
+          "uid" : "4dddf909f1e0aaca",
+          "parentUid" : "bad78a52d56dd86ac6e641258836be50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582910714040,
+            "stop" : 1582910733743,
+            "duration" : 19703
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bad78a52d56dd86ac6e641258836be50"
+      } ],
+      "uid" : "15e6e70000d04ba00541b52fd1f21676"
+    } ],
+    "uid" : "26a51f85aeb91b63cf3e87d1e22d4702"
+  } ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacBook-Air-Natala.local",
+    "children" : [ {
+      "name" : "23812@MacBook-Air-Natala.local.main(1)",
+      "children" : [ {
+        "name" : "anyTest",
+        "uid" : "4a93f49e2acecb7f",
+        "parentUid" : "fb0875260433fd8c02514d234e754ea8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582832897927,
+          "stop" : 1582832920411,
+          "duration" : 22484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb0875260433fd8c02514d234e754ea8"
+    }, {
+      "name" : "26426@MacBook-Air-Natala.local.main(1)",
+      "children" : [ {
+        "name" : "anyTest",
+        "uid" : "4dddf909f1e0aaca",
+        "parentUid" : "95cb243a21a0fbb30ddc157b81707427",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582910714040,
+          "stop" : 1582910733743,
+          "duration" : 19703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95cb243a21a0fbb30ddc157b81707427"
+    }, {
+      "name" : "24083@MacBook-Air-Natala.local.main(1)",
+      "children" : [ {
+        "name" : "anyTest",
+        "uid" : "53c0a3076bcaf500",
+        "parentUid" : "9231885d18037f9af12f7f58e8c1f97f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582833574666,
+          "stop" : 1582833587665,
+          "duration" : 12999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9231885d18037f9af12f7f58e8c1f97f"
+    } ],
+    "uid" : "76995293b84e1ddabce6c3b3865c1df3"
+  } ]
+}

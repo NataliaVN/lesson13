@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Feb 28 19:25:14 EET 2020","Fri Feb 28 19:25:33 EET 2020","19703","test.java.tests.ForPO","Command line test","test.java.tests.ForPO","test.java.tests.ForPO","anyTest","anyTest",""

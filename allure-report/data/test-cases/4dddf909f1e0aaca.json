@@ -1,0 +1,310 @@
+{
+  "uid" : "4dddf909f1e0aaca",
+  "name" : "anyTest",
+  "fullName" : "test.java.tests.ForPO.anyTest",
+  "historyId" : "37cf8ba2b123afa66dc34c7b1d2f174c",
+  "time" : {
+    "start" : 1582910714040,
+    "stop" : 1582910733743,
+    "duration" : 19703
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PageLoad",
+    "time" : {
+      "start" : 1582910713568,
+      "stop" : 1582910713757,
+      "duration" : 189
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1582910704770,
+      "stop" : 1582910713355,
+      "duration" : 8585
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open page",
+      "time" : {
+        "start" : 1582910714072,
+        "stop" : 1582910726944,
+        "duration" : 12872
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Select language uk",
+      "time" : {
+        "start" : 1582910726954,
+        "stop" : 1582910727787,
+        "duration" : 833
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "lang",
+        "value" : "uk"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select language About",
+      "time" : {
+        "start" : 1582910727787,
+        "stop" : 1582910729060,
+        "duration" : 1273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open Vacancies",
+      "time" : {
+        "start" : 1582910729061,
+        "stop" : 1582910730223,
+        "duration" : 1162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open VacancyВикладач UX",
+      "time" : {
+        "start" : 1582910730223,
+        "stop" : 1582910732016,
+        "duration" : 1793
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "vacancy",
+        "value" : "Викладач UX"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Set name{names}",
+      "time" : {
+        "start" : 1582910732017,
+        "stop" : 1582910733144,
+        "duration" : 1127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Vova"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Set emailemail@email.com",
+      "time" : {
+        "start" : 1582910733144,
+        "stop" : 1582910733392,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "email@email.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Set submit",
+      "time" : {
+        "start" : 1582910733392,
+        "stop" : 1582910733547,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "PhoneErrorMsg",
+      "time" : {
+        "start" : 1582910733547,
+        "stop" : 1582910733737,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1582910733772,
+      "stop" : 1582910734425,
+      "duration" : 653
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f49eb4e92dbb4d2c",
+      "name" : "screen",
+      "source" : "f49eb4e92dbb4d2c.png",
+      "type" : "image/png",
+      "size" : 117843
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.ForPO"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.ForPO"
+  }, {
+    "name" : "testMethod",
+    "value" : "anyTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.java.tests.ForPO"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.ForPO"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Natala.local"
+  }, {
+    "name" : "thread",
+    "value" : "26426@MacBook-Air-Natala.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Add t-short"
+  }, {
+    "name" : "story",
+    "value" : "Add to cart"
+  }, {
+    "name" : "epic",
+    "value" : "Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "AAA -134",
+    "type" : "issue"
+  }, {
+    "name" : "https://www.google.com.ua/?hl=ru",
+    "type" : "custom"
+  }, {
+    "name" : "B-1",
+    "type" : "tms"
+  }, {
+    "name" : "AAA-1",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "53c0a3076bcaf500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582833574666,
+        "stop" : 1582833587665,
+        "duration" : 12999
+      }
+    }, {
+      "uid" : "4a93f49e2acecb7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582832897927,
+        "stop" : 1582832920411,
+        "duration" : 22484
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4dddf909f1e0aaca.json",
+  "parameterValues" : [ ]
+}
