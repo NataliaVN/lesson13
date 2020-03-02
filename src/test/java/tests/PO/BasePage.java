@@ -12,5 +12,4 @@ public abstract class BasePage {
         wait = new WebDriverWait(this.driver, 30);
     }
 
-    public abstract BasePage open();
 }

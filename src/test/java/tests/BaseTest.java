@@ -20,7 +20,7 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp(ITestContext context) {
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         context.setAttribute("webDriver", driver);   // c TestListener
 
