@@ -11,8 +11,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.testng.Assert.assertTrue;
-
 public class POLessos12 extends BasepageLesson12 {
     Logger logger = LogManager.getLogger(POLessos12.class);
 
@@ -59,9 +57,9 @@ public class POLessos12 extends BasepageLesson12 {
         //WebElement courseEl = driver.findElement(By.xpath("//*[@id='" + course + "'][1]"));
         //List<WebElement> list = new ArrayList<course>();
         List<WebElement> courseElements = driver.findElements(By.xpath("(//div[@class='container_12 isotope 21'])/div/h2"));
-        List<WebElement> list = new ArrayList<>();
+        List<WebElement> list = new ArrayList<WebElement>();
         for (WebElement el : courseElements) {
-            list.add(el.findElement(By.id("//*[@id='course'][1]")));
+            list.add(el.findElement(By.id("(//*[@id='course'])[1]")));
             /*list.add(0, "Frontend development");
             list.add(1, "Тестування");
             list.add(2, "JS development");

@@ -28,7 +28,8 @@ public class Localcheck {
         @Test(dataProvider = "someProvider")
         public void someTest(String loc) {
             driver.get("http://iteaua-develop.demo.gns-it.com/roadmap_order_step1/");
-            WebElement location = driver.findElement(By.xpath("//label[@class= '" +loc+"'][1]"));
+            WebElement location = driver.findElement(By.xpath("(//label[@class= '" +loc+"'])[1]"));
+
             wait.until(ExpectedConditions.visibilityOf(location));
             location.click();
             WebElement logo = driver.findElement(By.xpath("//img[@alt='ITEA']"));
