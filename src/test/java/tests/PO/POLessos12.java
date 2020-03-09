@@ -54,30 +54,28 @@ public class POLessos12 extends BasepageLesson12 {
     }
 
     public void openrandomCourse() {
-        //WebElement courseEl = driver.findElement(By.xpath("//*[@id='" + course + "'][1]"));
-        //List<WebElement> list = new ArrayList<course>();
-        List<WebElement> courseElements = driver.findElements(By.xpath("(//div[@class='container_12 isotope 21'])/div/h2"));
-        List<WebElement> list = new ArrayList<WebElement>();
+
+        //List<WebElement> courseElements = driver.findElements(By.xpath("(//div[@class='container_12 isotope 21'])/div/h2"));
+        List<WebElement> courseElements = driver.findElements(By.xpath("(//*[@id='course'])[1]"));
+
+        List<WebElement> list = new ArrayList<>();
         for (WebElement el : courseElements) {
-            list.add(el.findElement(By.id("(//*[@id='course'])[1]")));
-            /*list.add(0, "Frontend development");
-            list.add(1, "Тестування");
-            list.add(2, "JS development");
-            list.add(3, "PHP");
-            list.add(4, "Java programming");*/
-            int rand = (int) (Math.random() * list.size());
-            System.out.println(list.get(rand));
-            //wait.until(ExpectedConditions.elementToBeClickable(courseEl));
-            //courseEl.click();
-            //return this;
+            for (int i = 0; i < 1; i++) {
+                list.add(el.findElement(By.xpath("(//*[@id='course'])[1]")));
+            }
         }
-        //return null;
+        //for (String el : courseElements) {
+            //System.out.println(el);
+        //}
+
+        int rand = (int)( Math.random() * list.size() );
+        System.out.println(list.get(rand));
+
+
+
     }
 
-    /*public POLessos12 openpay() {
-        WebElement pay = driver.findElement(By.xpath("//*[@class = 'order-courses-btn'][1]"));
-        wait.until(ExpectedConditions.elementToBeClickable(pay));
-        pay.click();
-        return this;*/
 }
+
+
 
