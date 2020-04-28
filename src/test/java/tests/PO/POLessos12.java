@@ -21,8 +21,7 @@ public class POLessos12 extends BasepageLesson12 {
     public POLessos12 open() {
         logger.info("Зайти на главную страницу сайта");
         logger.log(Level.DEBUG, "Открыть список вечерних курсов");
-        logger.error("Выбрать любой курс случайным образом ");
-        logger.log(Level.WARN, "Нажать кнопку «Купить»\\");
+         // Распечатался в log
 
         driver.get("http://iteaua-develop.demo.gns-it.com/about-itea/");
 
@@ -41,7 +40,8 @@ public class POLessos12 extends BasepageLesson12 {
     public POLessos12 coursesList() {
         WebElement list = driver.findElement(By.xpath("//a[(contains(@href, 'courses_itea')) and @class='parent']"));
         wait.until(ExpectedConditions.visibilityOf(list));
-        list.click();
+        list.click();logger.error("Выбрать любой курс случайным образом "); // Распечатался в log
+        logger.log(Level.WARN, "Нажать кнопку «Купить»\\");
         return this;
 
     }
